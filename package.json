@@ -1,8 +1,11 @@
 {
+  "name": "acme-invoice-dashboard",
+  "version": "1.0.0",
+  "description": "Acme Invoice Dashboard",
   "private": true,
   "scripts": {
     "build": "next build",
-    "dev": "next dev --turbopack",
+    "dev": "next dev --turbopack --port 8000",
     "start": "next start"
   },
   "dependencies": {
